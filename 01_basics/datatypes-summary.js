@@ -1,5 +1,5 @@
 // Primitive
-// Call by Value 
+// Call by Value (send the copy of org. value)
 
 //  7 Types: String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -48,3 +48,28 @@ console.log(typeof myobj);
 console.log(typeof isLoggedIn);
 console.log(typeof score);
 console.log(typeof myFunction);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  Use of memory(Stack, Heap)
+//  Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "study2exprement"
+let anothername = myYoutubename
+anothername = "Akash"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+
+let userTow = userOne
+
+userTow.email = "akash@google.com"
+
+console.log(userOne.email);
+console.log(userTow.email);
