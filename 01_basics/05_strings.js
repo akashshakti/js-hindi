@@ -25,3 +25,6 @@ console.log(newString);
 
 const anotherString = gameName.slice(-6, 2)
 console.log(anotherString);
+
+
+// node 01_basics/05_strings.js
